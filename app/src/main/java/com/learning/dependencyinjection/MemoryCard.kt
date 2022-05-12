@@ -3,7 +3,7 @@ package com.learning.dependencyinjection
 import android.util.Log
 import javax.inject.Inject
 
-class MemoryCard @Inject constructor() {
+class MemoryCard  {
 init {
     Log.i("MYTAG","Spaced Card Constructed")
 }

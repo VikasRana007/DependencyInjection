@@ -17,5 +17,9 @@ class SmartPhone @Inject constructor(
 
     }
 
+    fun makeACAllWithRecording(){
+        Log.i("MYTAG","Calling")
+    }
+
 
 }
