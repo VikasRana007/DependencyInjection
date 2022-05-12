@@ -14,11 +14,10 @@ class SmartPhone @Inject constructor(
         simCard.getConnection()
         memoryCard.getSpaceAvailability()
         Log.i("MYTAG", "Smart Phone Constructed")
-
     }
 
-    fun makeACAllWithRecording(){
-        Log.i("MYTAG","Calling")
+    fun makeACAllWithRecording() {
+        Log.i("MYTAG", "Calling")
     }
 
 

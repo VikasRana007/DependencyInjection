@@ -1,14 +1,6 @@
 package com.learning.dependencyinjection
 
-import android.util.Log
-import javax.inject.Inject
-
-class Battery @Inject constructor() {
-    init {
-        Log.i("MYTAG", "Power Generated")
-    }
-
-    fun getPower() {
-        Log.i("MYTAG", "Power Available")
-    }
+interface Battery {           // lets change this class to interface... to under stand the
+    // purpose of interface working as dependency
+    fun getPower()
 }
